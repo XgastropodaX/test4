@@ -1,0 +1,369 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-size:cover;
+  background:black;
+  cursor: url('img/ghost.png'),auto;
+  height:100%;
+}
+canvas {
+  display: block;
+  
+}
+.logo1 {
+  background-image: url("S I M O N.png");
+  position: absolute;
+  left: 362px;
+  top: -9px;
+  width: 954px;
+  height: 375px;
+  z-index: 20;
+}
+
+.boo {
+  background-image: url("boo.png");
+  position: absolute;
+  left: 82px;
+  top: 100px;
+  width: 311px;
+  height: 175px;
+  z-index: 11;
+}
+.skull {
+  background-image: url("spoop.png");
+  position: absolute;
+  left: 1325px;
+  top: 50px;
+  width: 330px;
+  height: 330px;
+  z-index: 3;
+}
+.about {
+  background-image: url("about.png");
+  position: absolute;
+  left: 82px;
+  top: 418px;
+  width: 269px;
+  height: 111px;
+  z-index: 20;
+}
+.rect {
+  border-width: 4.68px;
+  border-color: rgb(53, 41, 13);
+  border-style: solid;
+  position: absolute;
+  left: 35px;
+  top: 346px;
+  width: 354.64px;
+  height: 814.64px;
+  z-index: 10;
+}
+.mons {
+  position: absolute;
+  left: 82px;
+  top: 561px;
+  width: 269px;
+  height: 111px;
+  z-index: 21;
+}
+.support {
+  background-image: url("support.png");
+  position: absolute;
+  left: 82px;
+  top: 704px;
+  width: 269px;
+  height: 111px;
+  z-index: 10;
+}
+.mess {
+  background-image: url("mess.png");
+  position: absolute;
+  left: 82px;
+  top: 861px;
+  width: 269px;
+  height: 111px;
+  z-index: 10;
+}
+.vault {
+  background-image: url("vault.png");
+  position: absolute;
+  left: 82px;
+  top: 1005px;
+  width: 269px;
+  height: 111px;
+  z-index: 10;
+}
+
+audio { 
+   display:none;
+}
+p {
+  font-size: 25px;
+  font-family: "Britannic Bold";
+  color: rgb(72, 57, 23);
+  line-height: 1.2;
+  position: absolute;
+  left: 444.9px;
+  top: 440.428px;
+  width: 784px;
+  height: 348px;
+  z-index: 18;
+}
+.orph {
+  background-image: url("orph.png");
+  position: absolute;
+  left: 436px;
+  top: 740px;
+  width: 778px;
+  height: 424px;
+  z-index: 30;
+}
+.welcome {
+  font-size: 46px;
+  font-family: "Britannic Bold";
+  color: rgb(240, 238, 85);
+  line-height: 1.2;
+  position: absolute;
+  left: 445.004px;
+  top: 320.798px;
+  width: 701px;
+  height: 32px;
+  z-index: 19;
+}
+.sunglass {
+  position: absolute;
+  left: 1324px;
+  top: 375px;
+  width: 223px;
+  height: 215px;
+  z-index: 7;
+}
+.you {
+  background-image: url("you.png");
+  position: absolute;
+  left: 1298px;
+  top: 617px;
+  width: 256px;
+  height: 89px;
+  z-index: 25;
+}
+.insta {
+  background-image: url("insta.png");
+  position: absolute;
+  left: 1298px;
+  top: 742px;
+  width: 259px;
+  height: 97px;
+  z-index: 24;
+}
+.tweet {
+  background-image: url("tweet.png");
+  position: absolute;
+  left: 1300px;
+  top: 860px;
+  width: 255px;
+  height: 99px;
+  z-index: 23;
+}
+.check {
+  background-image: url("check.png");
+  position: absolute;
+  left: 1291px;
+  top: 982px;
+  width: 267px;
+  height: 95px;
+  z-index: 22;
+}
+.spotify {
+  background-image: url("spotify.png");
+  position: absolute;
+  left: 1294px;
+  top: 1091px;
+  width: 268px;
+  height: 104px;
+  z-index: 21;
+}
+.email {
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(167, 143, 48);
+  line-height: 1.2;
+  position: absolute;
+  left: 1291px;
+  top: 1210.062px;
+  z-index: 27;
+}
+.are {
+  font-size: 29px;
+  font-family: "Britannic Bold";
+  color: rgb(72, 57, 23);
+  line-height: 1.2;
+  position: absolute;
+  left: 451px;
+  top: 1150.134px;
+  width: 746px;
+  height: 33px;
+  z-index: 17;
+}
+.afraid {
+  font-size: 20px;
+  font-family: "Britannic Bold";
+  color: rgb(72, 57, 23);
+  line-height: 1.2;
+  position: absolute;
+  left: 450px;
+  top: 1298.428px;
+  width: 739px;
+  height: 108px;
+  z-index: 16;
+}
+.bite {
+  background-image: url("bite.png");
+  position: absolute;
+  left: 430px;
+  top: 1600px;
+  width: 750px;
+  height: 462px;
+  z-index: 28;
+}
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.plant2 {
+  background-image: url("plant2.png");
+  position: absolute;
+  left: 1179px;
+  top: 46px;
+  width: 395px;
+  height: 299px;
+  z-index: 22;
+}
+.plant3 {
+  background-image: url("plant3.png");
+  position: absolute;
+  left: 1429px;
+  top: 11px;
+  width: 219px;
+  height: 343px;
+  z-index: 24;
+}
+.plant4 {
+  background-image: url("plant4.png");
+  position: absolute;
+  left: 8px;
+  top: 60px;
+  width: 237px;
+  height: 246px;
+  z-index: 23;
+}
+.plant5 {
+  background-image: url("plant5.png");
+  position: absolute;
+  left: 172px;
+  top: 16px;
+  width: 260px;
+  height: 326px;
+  z-index: 26;
+}
+.plant6 {
+  background-image: url("plant6.png");
+  position: absolute;
+  left: 1401px;
+  top: 113px;
+  width: 132px;
+  height: 237px;
+  z-index: 25;
+}
+.plant {
+  background-image: url("plant.png");
+  position: absolute;
+  left: 56px;
+  top: 21px;
+  width: 282px;
+  height: 275px;
+  z-index: 21;
+}
+.simon {
+  background-image: url("simon.png");
+  position: absolute;
+  left: 413px;
+  top: 366px;
+  width: 852px;
+  height: 871px;
+  z-index: 19;
+}
+.simoninterview {
+  background-image: url("simoninterview.png");
+  position: absolute;
+  left: 480px;
+  top: 1540px;
+  width: 674px;
+  height: 379px;
+  z-index: 29;
+}
+h1 {
+  font-size: 25px;
+  font-family: "Times New Roman";
+  color: rgb(255, 207, 13);
+  line-height: 1.2;
+  position: absolute;
+  left: 338px;
+  top: 1297.223px;
+  width: 952px;
+  height: 234px;
+  z-index: 28;
+}
+p1 {
+  font-size: 46px;
+  font-family: "Times New Roman";
+  color: rgb(255, 207, 13);
+  line-height: 1.2;
+  position: absolute;
+  left: 706px;
+  top: 1221.91px;
+  width: 268px;
+  height: 33px;
+  z-index: 27;
+}
+.hed1 {
+  background-image: url("hed1.png");
+  position: absolute;
+  left: 28px;
+  top: 1204px;
+  width: 281px;
+  height: 276px;
+  z-index: 32;
+}
+.hed2 {
+  background-image: url("hed2.png");
+  position: absolute;
+  left: 1335px;
+  top: 1274px;
+  width: 275px;
+  height: 254px;
+  z-index: 33;
+}
+
+
+
+
+
